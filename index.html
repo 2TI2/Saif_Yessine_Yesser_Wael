@@ -264,9 +264,13 @@
         function toggleVisibility() {
             if (x === 2) {
                 toggleVisibility1();
+                audioPlayer2.pause();
+                playPauseButton2.textContent = 'Pause audio';
             }
             if (x === 3) {
                 toggleVisibility2();
+                audioPlayer3.pause();
+                playPauseButton3.textContent = 'Pause audio';
             }
             if (header.style.display === "none" || header.style.display === "") {
                 header.style.display = "block";
@@ -290,9 +294,13 @@
         function toggleVisibility1() {
             if (x === 1) {
                 toggleVisibility();
+                audioPlayer1.pause();
+                playPauseButton1.textContent = 'Pause audio';
             }
             if (x === 3) {
                 toggleVisibility2();
+                audioPlayer3.pause();
+                playPauseButton3.textContent = 'Pause audio';
             }
             if (header1.style.display === "none" || header1.style.display === "") {
                 header1.style.display = "block";
@@ -316,9 +324,13 @@
         function toggleVisibility2() {
             if (x === 1) {
                 toggleVisibility();
+                audioPlayer1.pause();
+                playPauseButton1.textContent = 'Pause audio';
             }
             if (x === 2) {
                 toggleVisibility1();
+                audioPlayer2.pause();
+                playPauseButton2.textContent = 'Pause audio';
             }
             if (header2.style.display === "none" || header2.style.display === "") {
                 header2.style.display = "block";
